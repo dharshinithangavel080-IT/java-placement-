@@ -2,17 +2,12 @@
 
 public class LargestElement {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter rows: ");
         int rows = sc.nextInt();
-
         System.out.print("Enter columns: ");
         int cols = sc.nextInt();
-
         int[][] a = new int[rows][cols];
-
         System.out.println("Enter matrix elements:");
 
         for (int i = 0; i < rows; i++) {
